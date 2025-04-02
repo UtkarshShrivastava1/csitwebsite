@@ -1,0 +1,39 @@
+{
+  "name": "csit-website-backend",
+  "version": "1.0.0",
+  "description": "website for Chhatrapati Shivaji Institute Of Technology, Durg",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UtkarshShrivastava1/csit-website.git"
+  },
+  "author": "Utkarsh Shrivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UtkarshShrivastava1/csit-website/issues"
+  },
+  "homepage": "https://github.com/UtkarshShrivastava1/csit-website#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^5.3.0",
+    "colors": "^1.4.0",
+    "compression": "^1.7.5",
+    "cors": "^2.8.5",
+    "csit-website-backend": "file:",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "school-management-system-backend": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
